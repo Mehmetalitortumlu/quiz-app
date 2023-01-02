@@ -5,23 +5,19 @@
 }
 
 .App {
-  background-color: #282c34;
-  color: white;
-  height: 100vh;
-  width: 100%;
+  text-align: center;
+  min-height: 100vh;
+  background-image: url('https://p4.wallpaperbetter.com/wallpaper/829/360/922/glass-map-magnifying-glass-wallpaper-preview.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 
 #headerDiv {
-  display: flex;
-  justify-content: center;
   margin: auto;
   width: 80%;
-  align-items: center;
-  height: 10rem;
-  background: greenyellow;
-  border-radius: 1rem;
-  margin-top: 1rem;
+  text-align: center;
+  border-radius: 1rem; 
 }
 
 #headerDiv>h1 {
@@ -40,54 +36,60 @@
   font-weight: 500;
   background: lightgray;
   border-radius: 5rem;
-}
-
-
-#questionList {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  flex-wrap: wrap;
-  width: 80%;
-  margin: auto;
-  margin-top: 1rem;
-  background: lightblue;
-  border-radius: 3rem;
-}
-
-#questionList>h3 {
-  line-height: 2rem;
-  word-spacing: 0.3rem;
-  font-size: 25px;
-  margin-bottom: 3rem;
-}
-
-#questionList>ul {
-  list-style: none;
-}
-
-#questionList>ul>li {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 400px;
-  height: 2.5rem;
   margin-bottom: 1rem;
-  border: 2px solid gray;
-  cursor: pointer;
 }
+
+
+.question-card {
+  margin: 0 auto;
+  background: gray ;
+  opacity: 0.9;
+  padding: 1.3rem;
+  border-radius: 5rem;
+  color: white;
+  -webkit-box-shadow: 75px 35px 26px -16px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 75px 35px 26px -16px rgba(0, 0, 0, 0.75);
+  box-shadow: 75px 35px 26px -16px rgba(0, 0, 0, 0.75);
+  width: 80%;
+  height: auto;
+}
+
+ul {
+  list-style: none;
+
+}
+
+li {
+  background : linear-gradient(90deg, #9dc588, #49b22e);
+  width: 40%;
+  margin: auto;
+  padding: 1rem;
+  border: 3px solid white;
+  border-radius: 1.2rem;
+  font-size: 1.4rem;
+  margin-top: 0.5rem;
+}
+
+
+.question-text {
+  text-align: center;
+  color: darkblue;
+  font-size: 1.5rem;
+}
+
 
 #final-results {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  margin-bottom: 1rem;
-  background: lightblue;
-  width: 80%;
-  margin: auto;
-  margin-top: 6rem;
+  margin: 0 auto;
+  background: gray;
+  padding: 1rem;
+  border-radius: 1rem;
+  color: white;
+  -webkit-box-shadow: 75px 35px 26px -16px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 75px 35px 26px -16px rgba(0, 0, 0, 0.75);
+  box-shadow: 75px 35px 26px -16px rgba(0, 0, 0, 0.75);
+  width: 50%;
+  margin-top: 1rem  ;
+  height: auto;
 }
 
 button {

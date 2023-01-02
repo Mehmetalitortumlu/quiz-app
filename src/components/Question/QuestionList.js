@@ -34,8 +34,8 @@ function QuestionList() {
                         <button onClick={restartGame}>Restart game</button>
                     </div>
                     :
-                    <div id='questionList'>
-                        <h3> {questions[currentQuestion].text} </h3>
+                    <div className='question-card'>
+                        <h3 className='question-text'> {questions[currentQuestion].text} </h3>
                         <ul>
                             {questions[currentQuestion].options.map((option) => {
                                 return (

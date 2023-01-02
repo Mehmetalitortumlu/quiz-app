@@ -7,11 +7,13 @@ import { QuestionContextProvider } from './context/QuestionContext';
 
 function App() {
   return (
-    <QuestionContextProvider>
+   <div className='App'>
+     <QuestionContextProvider>
       <Header />
       <Question />
       <QuestionList/>
     </QuestionContextProvider>
+   </div>
   );
 }
 
